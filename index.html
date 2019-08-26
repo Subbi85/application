@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bewerbung - Lars Schleyer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="css/favicon.ico">
+    <!-- CSS FILES ENDE-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<div id="wrapper">
+    <section id="home">
+    <div class="containerhead">
+        <h1 id="headline">Bewerbungsseite Lars Schleyer</h1>
+        
+        <div class="color-overlay"></div>
+    </div>
+    </section>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutMe">Über mich</a>
+        <a href="#curriculum">Lebenslauf</a>
+        <a href="#skills">Skills</a>
+        <a href="#" onclick="show()">Unterlagen</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+        </nav> <!--NavBar Ende-->
+    <div id="documents" class="invisible">
+        Bewerbungsunterlagen zum Download:
+        <ul>
+            <li><a href="download/download.zip">Unterlagen</a></li>
+        </ul>
+    </div>
+    <section id="aboutMe"> <!-- AboutMe -->
+        <div class="about_container">
+            <div class="about_box-1">
+                <h3>Herzlich Willkommen,</h3>
+                <p> mein Name ist Lars Schleyer und ich möchte diese Website nutzen, um mich Ihnen vorzustellen. <br> <br>
+                    während meiner Ausbildung zum Fachinformatiker für Anwendungsentwicklung habe ich mein Interesse an der Webentwicklung entdeckt. Nach den ersten Zeilen Code und den nachfolgenden kleineren Projekten, <br>
+                    war mir schnell klar, dass meine berufliche Zukunft in diesem Bereich liegen soll. <br>
+                    Schnell sammelte ich Erfahrungen mit bekannten Content Management Systemen wie Joomla und WordPress. <br> <br>
+                    Doch nur mit CMS zu arbeiten war mir bald nicht genug. Ich wollte wissen wie der Code dahinter funktioniert und baute bald darauf im lokalen Umfeld <br>
+                    meine ersten Websites mit HTML5, CSS3, PHP und JavaScript.
+                    <br><br>
+                    Im Januar diesen Jahres absolvierte ich einen JavaScript Kurs, um meine Kenntnisse und Fähigkeiten weiter zu steigern.
+                    Zu den wichtigsten Themen in diesem Kurs zählten Node.js und React.js, aber auch „grundlegende“ Themen wurden besprochen. <br>
+                    Jetzt bin ich bereit in die Zukunft zu starten und suche einen Job in der Webentwicklung.
+                </p>
+            </div>
+            <div class="about_box-2">
+                <img id="bewerbungsbild" src="css/bewerbungsbild.jpg" width="300px">
+            </div>
+        </div>
+    </section><!-- AboutMe Ende-->
+    <button onclick="topFunction()" id="backTop" title="Nach Oben">^</button>
+    <section class="filler" id="first">
+    <!-- PARALAX EFFEKT -->
+    <div class="container">
+        <div class="parallax1">.
+            <div id="text">
+                <p class="line anim-typewriter">Mein Lebenslauf</p>
+            </div>    
+        </div>
+    </div>
+    </section>
+    <section id="curriculum"><!-- CV-->
+        <div class="cv_box-1">
+            <h2>Lars Schleyer</h2>
+            <h2>E-Mail: lars.schleyer@gmx.de</h2>
+            <h2>Telefon: 0175/6615083</h2>
+            <h2>www.lars.schleyer-sw.de</h2>
+            <div id="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.xing.com/profile/Lars_Schleyer/" target="_blank" class="fa fa-xing"></a>
+                <a href="https://www.linkedin.com/in/lars-schleyer-6a4949181/" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+        </div>  
+        <div class="cv_box-9">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="https://www.xing.com/profile/Lars_Schleyer/cv?sc_o=mxb_p" target="_blank" class="fa fa-xing"></a>
+            <a href="https://www.linkedin.com/in/lars-schleyer-6a4949181/" target="_blank" class="fa fa-linkedin"></a>
+        </div>
+        <div class="cv_box-2">
+            <img src="css/bewerbungsbild.jpg" alt="css/bewerbungsbild.jpg" height="100%" style="float:right">
+        </div>  
+        <div class="cv_box-3">
+            <h3> Weiterbildung: alfatraining Würzburg</h3>
+            <i>Januar 2019 - März 2019</i>
+            <p>Weiterbildung : Certified Javascript Developer <br>
+                Inhalte: Grundlagen JS, High Order functions, Objekte, Klassen, Node.js, <br>
+                Angular.js, React und Vue.js
+            </p>
+        </div>  
+        <div class="cv_box-4">
+            <h3>Teleperformance Germany</h3>
+            <i> Juli 2017 - August 2018 </i>
+            <p> First-Level-Telefonsupport für iOS-Endgeräte <br>
+                Beratung bei Software- und Hardwareproblemen, <br>
+                Aufsetzen Reparaturaufträgen und AppleStore-Terminen, <br>
+                Kundensupport im Allgemeinen <br>
+            </p>
+
+        </div>  
+        <div class="cv_box-5">
+            <h3>APICON GmbH </h3>
+            <i>September 2015 - Februar 2017</i>
+            <p>
+                Ausbildzung zum Fachinformatiker Anwendungsentwicklung. <br>
+                Bearbeiten von Kundenprojekten für SAP-Systeme (in ABAP),<br>
+                Kundenabsprachen zu Projekten
+            </p>
+        </div>  
+        <div class="cv_box-6">
+            <h3>Stegmann Personaldienstleistung GmbH </h3>
+            <i>November 2013 - Februar 2014</i>
+            <p>
+                Personaldisponent -
+                Vermittlung und Verleihung von Mitarbeitern, Mitarbeiteraquise, <br>
+                Bewerbungsgesprächen, Mitarbeitervermittlung
+            </p>
+        </div>
+        <div class="cv_box-7">
+            <h4>APICON GmbH - <i>08/2015 - 02/2017</i> - Fachinformatiker Anwendungsentwicklung</h4>
+            <h4>Ibis Hotel Lübeck - <i>09/2006 - 07/2008 </i> - Hotelfachmann</h4>
+        </div> 
+        <div class="cv_box-8">
+            <h4>Hochschule Magdeburg-Stendal (FH) <br> <i>08/2008 - 08/2011</i></h4>
+            <p> Bachelor of Science - BWL <br>
+                Schwerpuntke:  Dienstleistungs- und Personalmanagement <br><br>
+                <span id="unshown"><b>Praktika:</b> <br>
+                <u>DiLeG mbH </u>- Personalmanagement (3 Wochen) <br><br>
+                <u>Communiqé Creative</u> - Marketing, Administration, Qualitätsmanagement, Customer Relations, uvm. (3 Monate) </span> 
+            </p>
+
+            <h4>Otto-von-Guericke Universität Magdeburg - <i>09/2011 - 03/2013</i></h4>
+            <p> Master of Science - BWL <br>
+               Schwerpuntke: Institutional Economist of International Management, <br>
+               Management and Entrepreneurship
+            </p>
+        </div>
+    </section> <!-- CV ENDE-->
+
+    <section class="filler" id="second">
+        <!-- PARALAX EFFEKT -->    
+        <div class="container">
+            <div class="parallax2">.
+                <div id="text">
+                <p class="line anim-typewriter">Meine Fähigkeiten und Skills</p>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">.<!-- Skills-->
+    <div class="wrapper">
+        <div class="tab">
+            <button class="tablink" onclick="openTab(event, 'skill')" id="default">Fähigkeiten</button>
+            <button class="tablink" onclick="openTab(event, 'softskills')">Ehrenämter / Interessen / Hobbies</button>
+        </div>
+
+    <div id="skill" class="content">
+       <span onclick="this.parentElement.style.display='none'" class="topright"><b>&times</b></span>
+        <h3>Skills und Fähigkeiten</h3>
+
+        <div class="skillbar clearfix " data-percent="80%">
+            <div class="skillbar-title" style="background: #0054d3;"><span>HTML5</span></div>
+            <div class="skillbar-bar" style="background: #3880ec;"></div>
+            <div class="skill-bar-percent">80%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #0054d3;"><span>CSS3</span></div>
+            <div class="skillbar-bar" style="background: #3880ec;"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div> <!-- End Skill Bar -->
+
+        <h3>Java Script und Frameworks</h3>
+        <div class="skillbar clearfix " data-percent="80%">
+            <div class="skillbar-title" style="background: #00316b;"><span>Javascript</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">80%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="35%">
+            <div class="skillbar-title" style="background: #00316b;"><span>NodeJS</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">35%</div>
+        </div> <!-- End Skill Bar -->        
+
+        <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #00316b;"><span>AngularJS</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #00316b;"><span>React</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="20%">
+            <div class="skillbar-title" style="background: #00316b;"><span>vue.js</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="20%">
+            <div class="skillbar-title" style="background: #00316b;"><span>jQuery</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+
+        <h3> Andere Sprachen </h3>
+        <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #344ddb;"><span>PHP</span></div>
+            <div class="skillbar-bar" style="background: #6176ee;"></div>
+            <div class="skill-bar-percent">40%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="20%">
+            <div class="skillbar-title" style="background: #344ddb;"><span>ABAP</span></div>
+            <div class="skillbar-bar" style="background: #6176ee;"></div>
+            <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #344ddb;"><span>Java</span></div>
+            <div class="skillbar-bar" style="background: #6176ee;"></div>
+            <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+
+        <h3>CMS-Systene</h3>
+
+        <div class="skillbar clearfix " data-percent="75%">
+            <div class="skillbar-title" style="background: #0f4dc0;"><span>WordPress</span></div>
+            <div class="skillbar-bar" style="background: #3f71cc;"></div>
+            <div class="skill-bar-percent">75%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #0f4dc0;"><span>Joomla</span></div>
+            <div class="skillbar-bar" style="background: #3f71cc;"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div> <!-- End Skill Bar -->
+ 
+        <h3>Datenbanken</h3>
+        <div class="skillbar clearfix " data-percent="80%">
+            <div class="skillbar-title" style="background: #0f4dc0;"><span>MySQL</span></div>
+            <div class="skillbar-bar" style="background: #4b689e;"></div>
+            <div class="skill-bar-percent">80%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="70%">
+            <div class="skillbar-title" style="background: #0f4dc0;"><span>SQL</span></div>
+            <div class="skillbar-bar" style="background: #4b689e;"></div>
+            <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+
+        <h3>Sprachen</h3>
+        <div class="skillbar clearfix " data-percent="100%">
+            <div class="skillbar-title" style="background: #1b0679;"><span>Deutsch</span></div>
+            <div class="skillbar-bar" style="background: #9793a8;"></div>
+            <div class="skill-bar-percent">Muttersprache</div>
+        </div> <!-- End Skill Bar -->
+        
+        <div class="skillbar clearfix " data-percent="85%">
+            <div class="skillbar-title" style="background: #1b0679;"><span>Englisch</span></div>
+            <div class="skillbar-bar" style="background: #9793a8;"></div>
+            <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #1b0679;"><span>Spanisch</span></div>
+            <div class="skillbar-bar" style="background: #9793a8;"></div>
+            <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->      
+    </div><!-- Skills ENDE-->
+
+    <div id="softskills" class="content"> <!-- Softskills-->
+        <span onclick="this.parentElement.style.display='none'" class="topright"><b>&times</b></span>
+        <h3>Vereine</h3>
+        <p> Ich habe viele Stunden meines Lebens mit Sport machen verbracht. Neben diversen Sportarten (Fussball, Tennis, etc.) <br>
+            War es vor allem der Schwimmsport, der mich gefesselt hat und mir einige Erfolge beschert hat. <br>
+            
+        </p>
+        <ul>
+            <li>MTV Lübeck (bis 2008)</li>
+            <li>DLRG Lübeck (bis 2008)</li>
+            <li>TG Schweinfurt (2014 bis heute)</li>
+        </ul>
+        <h3>Ehrenämter</h3>
+        <p> Mit der ehrenamtlichen Arbeit habe begonnen, als ich nach Schweinfurt gezogen bin. <br>
+            Insbesondere die Arbeit bei der KulturTafel Schweinfurt hat mir viele sehr interessante Kontakte und Erfahrungen ermöglicht. <br>
+            Außerdem wurde ich im Jahr 2015 in den Vorstand der KulturTafel gewählt und bekleide seitdem das Amt des "stellvertretenden Schriftführers". <br>
+        </p>
+        <ul>
+            <li>Die Tafel Schweinfurt e.V. (im Jahr 2014)</li>
+            <li>KulturTafel Schweinfurt e.V. (seit 2015)</li>
+        </ul>
+        <p>
+        <h3>Hobbies</h3>          
+            <ul>
+                <li>Kinobesuche</li>
+                <li>Freunde treffen</li>
+                <li>Zeichnen, Fotografieren</li>
+                <li>Fahrradfahren</li>
+            </ul>
+            Neben den oben genannten Hobbies interessiere ich mich sehr für die Bereiche Webentwicklung und Webdesign. <br>
+
+        </p>
+    </div><!-- Softskills ENDE-->
+</section>
+</div><!-- Ende Wrapper-->
+<script>
+
+    //Function für den Tabbed Content
+    let openTab=(evt, tabName)=> {
+        let i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " tab_active";
+    }
+
+    // Nav-Bar jQuery
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+
+    // Skillbar Animations
+    $(document).ready(function(){
+        $('.skillbar').each(function(){
+            $(this).find('.skillbar-bar').animate({
+                width:$(this).attr('data-percent')
+            },3000);
+        });
+    });
+
+    // Öffnet das default Element in den Tabs
+    document.getElementById("default").click();
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("backTop").style.display = "block";
+        } else {
+            document.getElementById("backTop").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+
+</script>
+    
+
+</body>
+</html>
